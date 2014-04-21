@@ -7,7 +7,7 @@ function TaskAtHandApp()
         
     function setStatus (message) 
     {
-        $("app>footer").text(message);
+        $("#app>footer").text(message);
     }
 
     function saveTaskList()
